@@ -13,4 +13,4 @@ For more details on the httpserver, please look at my multithreaded httpserver: 
 
 The file should have a Makefile, loadbalancer.c to run. To compile simply call make or make all. To run the program, run ./httpserver with a port number, and an optional -N and -l header.
 The -N header must be followed by an positive integer number of threads, and the -R header an integer value greater than 0. 
-As of the time this README is written, the program seems to fail to balance loads perfectly. I have not encountered this error personally, but I seem to fail some test scripts. 
+As of the time this README is written, the program seems to work fine.
